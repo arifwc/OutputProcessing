@@ -1,0 +1,70 @@
+{
+  "name": "Output Processing",
+  "description": "Output Processing Crawling Web SIPP",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DataService.Activities": "[21.6.1]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.5]",
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]",
+    "UiPath.WebAPI.Activities": "[1.9.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "Output_Processing",
+      "uniqueReference": "QBG96mZ7jSadqkgMtiNCXxyfa3fRRQi+w+7+FAZEaxw="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "5d6165fe-e35c-4e69-be10-1d5e9ceafe38",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TesOutputProcess.xaml",
+      "uniqueId": "c1dd1af8-fa5e-4198-820e-9e5c7bb7ead1",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
